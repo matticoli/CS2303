@@ -4,51 +4,51 @@
 
 #include <stdio.h>
 
-/*!
-   \brief Get the start weekday of a given year (0=Sunday 6=Saturday)
-   \param year The year to get the first dday of
-   \return An int, 0-6, corresponding to the starting day of the given year
+/**
+  *  Get the start weekday of a given year (0=Sunday 6=Saturday)
+  * @param year The year to get the first day of
+  * @return An int, 0-6, corresponding to the starting day of the given year
 */
 int getYearStartDay(int year);
 
-/*!
-   \brief Prints a formatted calendar for the given year starting on the
-   given weekday (0-6 for Sunday-Saturday)
-   \param year The year of the calendar to print
-   \param startDay The day of the week that the given year starts on
+/**
+  *  Prints a formatted calendar for the given year starting on the
+  * given weekday (0-6 for Sunday-Saturday)
+  * @param year The year of the calendar to print
+  * @param startDay The day of the week that the given year starts on
 */
 void printCalendar(int year, int startDay);
 
-/*!
-   \brief Prints a formatted calendar for the given month (1-12) of the given
-   starting on the given weekday (0-6 for Sunday-Saturday)
-   \param year The year of the calendar to print
-   \param month The month of the calendar to print
-   \param startDay The day of the week that the given year starts on
-   \param numDays The number of days in the given month
-   \return Returns the first day of the next month
+/**
+  *  Prints a formatted calendar for the given month (1-12) of the given
+  * starting on the given weekday (0-6 for Sunday-Saturday)
+  * @param year The year of the calendar to print
+  * @param month The month of the calendar to print
+  * @param startDay The day of the week that the given year starts on
+  * @param numDays The number of days in the given month
+  * @return Returns the first day of the next month
 */
 int printMonth(int year, int month, int startDay, int numDays);
 
-/*!
-   \brief Gets the name of a given month
-   \param month The number corresponding to the month (1-12)
-   \return Return string denoting calendar month
+/**
+  *  Gets the name of a given month
+  * @param month The number corresponding to the month (1-12)
+  * @return Return string denoting calendar month
 */
 char *monthName(int month);
 
-/*!
-   \brief Gets number of days in a given month
-   \param month The month to get the number of days of
-   \param leapYear 1 if leapYear, else 0
-   \return Number of days in the given month
+/**
+  *  Gets number of days in a given month
+  * @param month The month to get the number of days of
+  * @param leapYear 1 if leapYear, else 0
+  * @return Number of days in the given month
 */
 int daysInMonth(int month, int leapYear);
 
-/*!
-   \brief Prompts user for year and prints out formatted calendar
-   \param args command line arguments
-   \return "Return of the function"
+/**
+  *  Prompts user for year and prints out formatted calendar
+  * @param args command line arguments
+  * @return "Return of the function"
 */
 int main() {
   int year; // Year inputted by user
