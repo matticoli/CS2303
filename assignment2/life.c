@@ -289,11 +289,12 @@ void playOne (unsigned int rows, unsigned int columns, char **old, char **new) {
 */
 int getAdjecentLifeCount(char **grid, int rows, int cols, int x, int y) {
 	// Define simple function for bounds check to improve readability
-	/*!
+	// Note: annotations omitted to prevent malformed docs
+	/*
 	   Determines whether position x,y is within bounds of grid
-	   @param x x-pos passed to parent function
-	   @param y y-pos passed to parent function
-	   @return Return 1 if in bounds, else 0
+	   param x x-pos passed to parent function
+	   param y y-pos passed to parent function
+	   return Return 1 if in bounds, else 0
 	*/
 	int inBounds(int x, int y) {
 		return (x >= 0 && y >= 0  && x < rows && y < cols);

@@ -21,6 +21,6 @@ clean:
 	rm -f *.o life
 	rm -f -r html latex
 
-# Give command "make docs" to create documentation.	
+# Give command "make docs" to create documentation.
 docs:
 	doxygen

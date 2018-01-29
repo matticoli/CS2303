@@ -35,7 +35,7 @@ int** make2Dint(int rows, int columns) {
 	return a;
 }
 
-/** Make a 2D array of integers
+/** Make a 2D array of characters
  *
  * @param rows Number of rows
  * @param columns Number of columns
@@ -43,10 +43,8 @@ int** make2Dint(int rows, int columns) {
  * 	  or null pointer if unable to allocate memory.
  * 	  Note: Will not free partially-allocated memory.
  *
- * @author Mike Ciaraldi
  */
 char** make2Dchar(int rows, int columns) {
-
 	char **init = malloc(sizeof(char *) * rows);
 	/* Invariants (nested loop iteration):
 	  - Pre: Current index of 2d array is unallocated
