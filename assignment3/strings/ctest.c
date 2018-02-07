@@ -151,16 +151,16 @@ int main()
 	printf("\nlength of src < n");
 	testStrnCat(cpyTo2, p3, 5);
 
- // Testing mystrndup
- printf("\nTesting mystrndup\n================\n");
- printf("\nn = 5\nlength of src == n");
- testStrndup(cpyFrom, 5);
+	// Testing mystrndup
+	printf("\nTesting mystrndup\n================\n");
+	printf("\nn = 5\nlength of src == n");
+	testStrndup(cpyFrom, 5);
 
- printf("\nlength of src > n");
- testStrndup(cpyFrom2, 5);
+	printf("\nlength of src > n");
+	testStrndup(cpyFrom2, 5);
 
- printf("\nlength of src < n");
- testStrndup(p3, 5);
+	printf("\nlength of src < n");
+	testStrndup(p3, 5);
 	return 0;
 }
 
