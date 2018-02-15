@@ -123,6 +123,141 @@ assignment4/fast:
 	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/build
 .PHONY : assignment4/fast
 
+CustomerEvent.o: CustomerEvent.cpp.o
+
+.PHONY : CustomerEvent.o
+
+# target to build an object file
+CustomerEvent.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerEvent.cpp.o
+.PHONY : CustomerEvent.cpp.o
+
+CustomerEvent.i: CustomerEvent.cpp.i
+
+.PHONY : CustomerEvent.i
+
+# target to preprocess a source file
+CustomerEvent.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerEvent.cpp.i
+.PHONY : CustomerEvent.cpp.i
+
+CustomerEvent.s: CustomerEvent.cpp.s
+
+.PHONY : CustomerEvent.s
+
+# target to generate assembly for a file
+CustomerEvent.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerEvent.cpp.s
+.PHONY : CustomerEvent.cpp.s
+
+CustomerQueue.o: CustomerQueue.cpp.o
+
+.PHONY : CustomerQueue.o
+
+# target to build an object file
+CustomerQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.o
+.PHONY : CustomerQueue.cpp.o
+
+CustomerQueue.i: CustomerQueue.cpp.i
+
+.PHONY : CustomerQueue.i
+
+# target to preprocess a source file
+CustomerQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.i
+.PHONY : CustomerQueue.cpp.i
+
+CustomerQueue.s: CustomerQueue.cpp.s
+
+.PHONY : CustomerQueue.s
+
+# target to generate assembly for a file
+CustomerQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.s
+.PHONY : CustomerQueue.cpp.s
+
+Event.o: Event.cpp.o
+
+.PHONY : Event.o
+
+# target to build an object file
+Event.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/Event.cpp.o
+.PHONY : Event.cpp.o
+
+Event.i: Event.cpp.i
+
+.PHONY : Event.i
+
+# target to preprocess a source file
+Event.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/Event.cpp.i
+.PHONY : Event.cpp.i
+
+Event.s: Event.cpp.s
+
+.PHONY : Event.s
+
+# target to generate assembly for a file
+Event.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/Event.cpp.s
+.PHONY : Event.cpp.s
+
+EventQueue.o: EventQueue.cpp.o
+
+.PHONY : EventQueue.o
+
+# target to build an object file
+EventQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/EventQueue.cpp.o
+.PHONY : EventQueue.cpp.o
+
+EventQueue.i: EventQueue.cpp.i
+
+.PHONY : EventQueue.i
+
+# target to preprocess a source file
+EventQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/EventQueue.cpp.i
+.PHONY : EventQueue.cpp.i
+
+EventQueue.s: EventQueue.cpp.s
+
+.PHONY : EventQueue.s
+
+# target to generate assembly for a file
+EventQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/EventQueue.cpp.s
+.PHONY : EventQueue.cpp.s
+
+TellerEvent.o: TellerEvent.cpp.o
+
+.PHONY : TellerEvent.o
+
+# target to build an object file
+TellerEvent.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerEvent.cpp.o
+.PHONY : TellerEvent.cpp.o
+
+TellerEvent.i: TellerEvent.cpp.i
+
+.PHONY : TellerEvent.i
+
+# target to preprocess a source file
+TellerEvent.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerEvent.cpp.i
+.PHONY : TellerEvent.cpp.i
+
+TellerEvent.s: TellerEvent.cpp.s
+
+.PHONY : TellerEvent.s
+
+# target to generate assembly for a file
+TellerEvent.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerEvent.cpp.s
+.PHONY : TellerEvent.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... assignment4"
+	@echo "... CustomerEvent.o"
+	@echo "... CustomerEvent.i"
+	@echo "... CustomerEvent.s"
+	@echo "... CustomerQueue.o"
+	@echo "... CustomerQueue.i"
+	@echo "... CustomerQueue.s"
+	@echo "... Event.o"
+	@echo "... Event.i"
+	@echo "... Event.s"
+	@echo "... EventQueue.o"
+	@echo "... EventQueue.i"
+	@echo "... EventQueue.s"
+	@echo "... TellerEvent.o"
+	@echo "... TellerEvent.i"
+	@echo "... TellerEvent.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

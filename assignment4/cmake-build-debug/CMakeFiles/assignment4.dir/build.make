@@ -81,17 +81,147 @@ CMakeFiles/assignment4.dir/main.cpp.o.provides: CMakeFiles/assignment4.dir/main.
 CMakeFiles/assignment4.dir/main.cpp.o.provides.build: CMakeFiles/assignment4.dir/main.cpp.o
 
 
+CMakeFiles/assignment4.dir/Event.cpp.o: CMakeFiles/assignment4.dir/flags.make
+CMakeFiles/assignment4.dir/Event.cpp.o: ../Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assignment4.dir/Event.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/Event.cpp.o -c /home/student/CS2303/assignment4/Event.cpp
+
+CMakeFiles/assignment4.dir/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/Event.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/Event.cpp > CMakeFiles/assignment4.dir/Event.cpp.i
+
+CMakeFiles/assignment4.dir/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/Event.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/Event.cpp -o CMakeFiles/assignment4.dir/Event.cpp.s
+
+CMakeFiles/assignment4.dir/Event.cpp.o.requires:
+
+.PHONY : CMakeFiles/assignment4.dir/Event.cpp.o.requires
+
+CMakeFiles/assignment4.dir/Event.cpp.o.provides: CMakeFiles/assignment4.dir/Event.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/Event.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment4.dir/Event.cpp.o.provides
+
+CMakeFiles/assignment4.dir/Event.cpp.o.provides.build: CMakeFiles/assignment4.dir/Event.cpp.o
+
+
+CMakeFiles/assignment4.dir/EventQueue.cpp.o: CMakeFiles/assignment4.dir/flags.make
+CMakeFiles/assignment4.dir/EventQueue.cpp.o: ../EventQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assignment4.dir/EventQueue.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/EventQueue.cpp.o -c /home/student/CS2303/assignment4/EventQueue.cpp
+
+CMakeFiles/assignment4.dir/EventQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/EventQueue.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/EventQueue.cpp > CMakeFiles/assignment4.dir/EventQueue.cpp.i
+
+CMakeFiles/assignment4.dir/EventQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/EventQueue.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/EventQueue.cpp -o CMakeFiles/assignment4.dir/EventQueue.cpp.s
+
+CMakeFiles/assignment4.dir/EventQueue.cpp.o.requires:
+
+.PHONY : CMakeFiles/assignment4.dir/EventQueue.cpp.o.requires
+
+CMakeFiles/assignment4.dir/EventQueue.cpp.o.provides: CMakeFiles/assignment4.dir/EventQueue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/EventQueue.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment4.dir/EventQueue.cpp.o.provides
+
+CMakeFiles/assignment4.dir/EventQueue.cpp.o.provides.build: CMakeFiles/assignment4.dir/EventQueue.cpp.o
+
+
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o: CMakeFiles/assignment4.dir/flags.make
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../TellerEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/assignment4.dir/TellerEvent.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/TellerEvent.cpp.o -c /home/student/CS2303/assignment4/TellerEvent.cpp
+
+CMakeFiles/assignment4.dir/TellerEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/TellerEvent.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/TellerEvent.cpp > CMakeFiles/assignment4.dir/TellerEvent.cpp.i
+
+CMakeFiles/assignment4.dir/TellerEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/TellerEvent.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/TellerEvent.cpp -o CMakeFiles/assignment4.dir/TellerEvent.cpp.s
+
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o.requires:
+
+.PHONY : CMakeFiles/assignment4.dir/TellerEvent.cpp.o.requires
+
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o.provides: CMakeFiles/assignment4.dir/TellerEvent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerEvent.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment4.dir/TellerEvent.cpp.o.provides
+
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o.provides.build: CMakeFiles/assignment4.dir/TellerEvent.cpp.o
+
+
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.o: CMakeFiles/assignment4.dir/flags.make
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.o: ../CustomerEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assignment4.dir/CustomerEvent.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/CustomerEvent.cpp.o -c /home/student/CS2303/assignment4/CustomerEvent.cpp
+
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/CustomerEvent.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/CustomerEvent.cpp > CMakeFiles/assignment4.dir/CustomerEvent.cpp.i
+
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/CustomerEvent.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/CustomerEvent.cpp -o CMakeFiles/assignment4.dir/CustomerEvent.cpp.s
+
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.requires:
+
+.PHONY : CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.requires
+
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.provides: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.provides
+
+CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.provides.build: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o
+
+
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.o: CMakeFiles/assignment4.dir/flags.make
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.o: ../CustomerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assignment4.dir/CustomerQueue.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/CustomerQueue.cpp.o -c /home/student/CS2303/assignment4/CustomerQueue.cpp
+
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/CustomerQueue.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/CustomerQueue.cpp > CMakeFiles/assignment4.dir/CustomerQueue.cpp.i
+
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/CustomerQueue.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/CustomerQueue.cpp -o CMakeFiles/assignment4.dir/CustomerQueue.cpp.s
+
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires:
+
+.PHONY : CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires
+
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides
+
+CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides.build: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o
+
+
 # Object files for target assignment4
 assignment4_OBJECTS = \
-"CMakeFiles/assignment4.dir/main.cpp.o"
+"CMakeFiles/assignment4.dir/main.cpp.o" \
+"CMakeFiles/assignment4.dir/Event.cpp.o" \
+"CMakeFiles/assignment4.dir/EventQueue.cpp.o" \
+"CMakeFiles/assignment4.dir/TellerEvent.cpp.o" \
+"CMakeFiles/assignment4.dir/CustomerEvent.cpp.o" \
+"CMakeFiles/assignment4.dir/CustomerQueue.cpp.o"
 
 # External object files for target assignment4
 assignment4_EXTERNAL_OBJECTS =
 
 assignment4: CMakeFiles/assignment4.dir/main.cpp.o
+assignment4: CMakeFiles/assignment4.dir/Event.cpp.o
+assignment4: CMakeFiles/assignment4.dir/EventQueue.cpp.o
+assignment4: CMakeFiles/assignment4.dir/TellerEvent.cpp.o
+assignment4: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o
+assignment4: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o
 assignment4: CMakeFiles/assignment4.dir/build.make
 assignment4: CMakeFiles/assignment4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable assignment4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/assignment4.dir/build: assignment4
 .PHONY : CMakeFiles/assignment4.dir/build
 
 CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/main.cpp.o.requires
+CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/Event.cpp.o.requires
+CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/EventQueue.cpp.o.requires
+CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/TellerEvent.cpp.o.requires
+CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.requires
+CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires
 
 .PHONY : CMakeFiles/assignment4.dir/requires
 
