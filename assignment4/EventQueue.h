@@ -9,11 +9,15 @@
 #include "Event.h"
 
 class EventQueue {
+protected:
     Event *root = nullptr;
-    public:
-        void add(Event &e);
+public:
+        virtual void add(Event *e);
         Event *peek();
         Event *pop();
+
+//        std::string toString();
+
 };
 
 

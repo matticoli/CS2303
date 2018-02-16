@@ -15,5 +15,5 @@ char *Event::getType() {
 }
 
 std::string Event::toString() {
-    return std::to_string(startTime) + ", " + std::to_string(duration);
+    return "Event {" + std::to_string(startTime) + ", " + std::to_string(duration) + "}";
 }

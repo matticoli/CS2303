@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/student/CS2303/assignment4/CustomerQueue.cpp" "/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles/assignment4.dir/CustomerQueue.cpp.o"
   "/home/student/CS2303/assignment4/Event.cpp" "/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles/assignment4.dir/Event.cpp.o"
   "/home/student/CS2303/assignment4/EventQueue.cpp" "/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles/assignment4.dir/EventQueue.cpp.o"
+  "/home/student/CS2303/assignment4/SortedEventQueue.cpp" "/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o"
   "/home/student/CS2303/assignment4/TellerEvent.cpp" "/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles/assignment4.dir/TellerEvent.cpp.o"
   "/home/student/CS2303/assignment4/main.cpp" "/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles/assignment4.dir/main.cpp.o"
   )

@@ -6,8 +6,8 @@
 #include "EventQueue.h"
 #include "Event.h"
 
-void CustomerQueue::add(Event &e) {
-    if(e.getType() == "Customer") {
+void CustomerQueue::add(Event *e) {
+    if(e->getType() == "Customer") {
         EventQueue::add(e);
     }
 }

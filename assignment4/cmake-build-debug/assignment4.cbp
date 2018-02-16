@@ -108,6 +108,12 @@
 		<Unit filename="/home/student/CS2303/assignment4/EventQueue.h">
 			<Option target="assignment4"/>
 		</Unit>
+		<Unit filename="/home/student/CS2303/assignment4/SortedEventQueue.cpp">
+			<Option target="assignment4"/>
+		</Unit>
+		<Unit filename="/home/student/CS2303/assignment4/SortedEventQueue.h">
+			<Option target="assignment4"/>
+		</Unit>
 		<Unit filename="/home/student/CS2303/assignment4/TellerEvent.cpp">
 			<Option target="assignment4"/>
 		</Unit>

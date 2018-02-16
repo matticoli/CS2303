@@ -8,7 +8,7 @@
 
 #include "Event.h"
 
-enum CEventType { ARRIVE, WAIT, SERVE, LEAVE };
+enum CEventType { ARRIVE, WAIT, SERVED };
 
 class CustomerEvent : public Event {
     public:

@@ -10,7 +10,7 @@
 class Event {
 
     public:
-        Event *next;
+        Event *next = nullptr;
         double startTime, duration;
 
         Event(double startTime, double duration);

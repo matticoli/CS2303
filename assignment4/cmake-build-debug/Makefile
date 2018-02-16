@@ -231,6 +231,33 @@ EventQueue.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/EventQueue.cpp.s
 .PHONY : EventQueue.cpp.s
 
+SortedEventQueue.o: SortedEventQueue.cpp.o
+
+.PHONY : SortedEventQueue.o
+
+# target to build an object file
+SortedEventQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o
+.PHONY : SortedEventQueue.cpp.o
+
+SortedEventQueue.i: SortedEventQueue.cpp.i
+
+.PHONY : SortedEventQueue.i
+
+# target to preprocess a source file
+SortedEventQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/SortedEventQueue.cpp.i
+.PHONY : SortedEventQueue.cpp.i
+
+SortedEventQueue.s: SortedEventQueue.cpp.s
+
+.PHONY : SortedEventQueue.s
+
+# target to generate assembly for a file
+SortedEventQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/SortedEventQueue.cpp.s
+.PHONY : SortedEventQueue.cpp.s
+
 TellerEvent.o: TellerEvent.cpp.o
 
 .PHONY : TellerEvent.o
@@ -306,6 +333,9 @@ help:
 	@echo "... EventQueue.o"
 	@echo "... EventQueue.i"
 	@echo "... EventQueue.s"
+	@echo "... SortedEventQueue.o"
+	@echo "... SortedEventQueue.i"
+	@echo "... SortedEventQueue.s"
 	@echo "... TellerEvent.o"
 	@echo "... TellerEvent.i"
 	@echo "... TellerEvent.s"
