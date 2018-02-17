@@ -10,10 +10,10 @@ Event::Event(double startTime, double duration) {
     this->duration = duration;
 }
 
-char *Event::getType() {
-    return const_cast<char *>("Event");
+std::string Event::getType() {
+    return "Event";
 }
 
 std::string Event::toString() {
-    return "Event {" + std::to_string(startTime) + ", " + std::to_string(duration) + "}";
+    return getType() + "{" + std::to_string(startTime) + ", " + std::to_string(duration) + "}";
 }

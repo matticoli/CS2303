@@ -23,11 +23,15 @@ CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o: ../EventQueue.h
 CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o: ../SortedEventQueue.cpp
 CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o: ../SortedEventQueue.h
 
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../CustomerEvent.h
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../CustomerQueue.h
 CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../Event.h
+CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../EventQueue.h
 CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../TellerEvent.cpp
 CMakeFiles/assignment4.dir/TellerEvent.cpp.o: ../TellerEvent.h
 
 CMakeFiles/assignment4.dir/main.cpp.o: ../CustomerEvent.h
+CMakeFiles/assignment4.dir/main.cpp.o: ../CustomerQueue.h
 CMakeFiles/assignment4.dir/main.cpp.o: ../Event.h
 CMakeFiles/assignment4.dir/main.cpp.o: ../EventQueue.h
 CMakeFiles/assignment4.dir/main.cpp.o: ../SortedEventQueue.h

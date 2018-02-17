@@ -4,7 +4,11 @@
 #include "CustomerEvent.h"
 #include "SortedEventQueue.h"
 #include "TellerEvent.h"
+#include "CustomerQueue.h"
 
+int randTime(double min, double max) {
+    return (int)(rand() * (max - min) / float(RAND_MAX) + min);
+}
 
 int main(int argc, char *argv[]) {
     srand(time(NULL));
@@ -31,38 +35,76 @@ int main(int argc, char *argv[]) {
 
     double simTime = 0;
 
-    Event *e = new Event(2.0, 2.0);
-    std::cout << e->toString() << std::endl;
-
+    double avgWaitTime = 0;
 
     SortedEventQueue *eventQueue = new SortedEventQueue();
+    CustomerQueue *customerQueue = new CustomerQueue();
 
     for(int i = 0; i < customerCount; i++) {
-        Event *c = new CustomerEvent(rand() * simDuration / float(RAND_MAX), 0, CEventType::ARRIVE);
+        CustomerEvent *c = new CustomerEvent(randTime(0, simDuration), 0, CEventType::ARRIVE);
         eventQueue->add(c);
+//        std::cout << "Added customer " << c->toString() << std::endl;
     }
 
     for(int i = 0; i < tellerCount; i++) {
-        Event *t = new TellerEvent(0, 0, TEventType::IDLE);
+        TellerEvent *t = new TellerEvent(0, 0, TEventType::IDLE, customerQueue);
         eventQueue->add(t);
+//        std::cout << "Added Teller " << t->toString() << std::endl;
+
     }
 
+    eventQueue->print();
+
     while(simTime < simDuration) {
+//        std::cout << simTime << std::endl;
+
         while(eventQueue->peek()->startTime == simTime) {
             Event *e = eventQueue->pop();
             if(e->getType() == "Teller") {
                 TellerEvent *t = static_cast<TellerEvent *>(e);
-                // TODO check queue on completion of idle or serve event, create a new event
+                if(t->queue->peek() != nullptr) {
+//                    t->queue->print();
+                    CustomerEvent *c = t->queue->pop();
+                    int serveTime = randTime(1, avgSvcTime * 2);
+//                    std::cout << t->toString() << " serving " << c->toString() << " until " << (simTime + serveTime) << std::endl;
+                    t->retask(simTime + serveTime, 0, TEventType::SERVE);
+                    c->retask(simTime + serveTime, 0, CEventType::SERVED);
+                    eventQueue->add(t);
+                    eventQueue->add(c);
+                } else {
+                    int idleTime = randTime(1, avgSvcTime * 2);
+//                    std::cout << t->toString() << " idling until " << (simTime + idleTime) << std::endl;
+                    t->retask(simTime + idleTime, 0, TEventType::IDLE);
+                    eventQueue->add(t);
+                }
             } else if (e->getType() == "Customer") {
                 CustomerEvent *c = static_cast<CustomerEvent *>(e);
-                // TODO if arrival, put customer in queue, elif wait, put in evt queue, elif serve, destroy
+                switch(c->eventType) {
+                    case CEventType ::ARRIVE:
+//                        std::cout << "Customer arrived at " << simTime;
+                        c->retask(simTime, 0, CEventType::WAIT);
+                        CustomerQueue::shortestCustomerQueue->add(c);
+                        break;
+                    default:
+                    case CEventType ::SERVED:
+                        std::cout << "Customer left after " << simTime - c->arrivalTime << " minutes" << std::endl;
+                        avgWaitTime +=  simTime - c->arrivalTime;
+                        delete c;
+                        break;
+                }
             } else {
                 std::cerr << "Error, unrecognized event type" << std::endl;
                 return 1;
             }
         }
+//        eventQueue->print();
+//        std::cout << "Customer ";
+//        CustomerQueue::shortestCustomerQueue->print();
         simTime++;
     }
+    avgWaitTime /= customerCount;
+
+    std::cout << std::endl << "Average wait time for shared queue is " << avgWaitTime << " minutes" << std::endl;
 
     return 0;
 }

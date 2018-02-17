@@ -17,10 +17,6 @@ Event.h
 /home/student/CS2303/assignment4/CustomerQueue.cpp
 CustomerQueue.h
 /home/student/CS2303/assignment4/CustomerQueue.h
-EventQueue.h
-/home/student/CS2303/assignment4/EventQueue.h
-Event.h
-/home/student/CS2303/assignment4/Event.h
 
 /home/student/CS2303/assignment4/CustomerQueue.h
 EventQueue.h
@@ -61,6 +57,8 @@ TellerEvent.h
 /home/student/CS2303/assignment4/TellerEvent.h
 Event.h
 /home/student/CS2303/assignment4/Event.h
+CustomerQueue.h
+/home/student/CS2303/assignment4/CustomerQueue.h
 
 /home/student/CS2303/assignment4/main.cpp
 iostream
@@ -75,4 +73,6 @@ SortedEventQueue.h
 /home/student/CS2303/assignment4/SortedEventQueue.h
 TellerEvent.h
 /home/student/CS2303/assignment4/TellerEvent.h
+CustomerQueue.h
+/home/student/CS2303/assignment4/CustomerQueue.h
 

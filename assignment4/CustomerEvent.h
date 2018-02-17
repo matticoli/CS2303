@@ -17,7 +17,7 @@ class CustomerEvent : public Event {
 
         CustomerEvent(double startTime, double duration, CEventType eventType);
         void retask(double startTime, double duration, CEventType eventType);
-        char *getType() override;
+        std::string getType() override;
     };
 
 

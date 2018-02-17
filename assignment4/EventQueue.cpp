@@ -9,6 +9,7 @@ void EventQueue::add(Event *e) {
     if(!this->root) {
         // Set Event as root
         this->root = e;
+        e->next = nullptr;
         return;
     }
     // else, find tail
@@ -16,7 +17,7 @@ void EventQueue::add(Event *e) {
     while(tail->next != nullptr) {
         tail = tail->next;
     }
-
+    e->next = nullptr;
     tail->next = e;
 }
 
@@ -27,15 +28,22 @@ Event * EventQueue::peek() {
 Event * EventQueue::pop() {
     Event *n = root;
     root = root->next;
+    n->next = nullptr;
     return n;
 }
-//
-//std::string EventQueue::toString() {
-//    std::string str = "";
-//    Event *e = root;
-//    while(e) {
-//        str = str << e->toString();
-//        e = e->next;
-//    }
-//    return str;
-//}
+
+int EventQueue::length() {
+    int count = 0;
+    for(Event *n = root; n->next != nullptr; n++) count++;
+    return count;
+}
+
+
+void EventQueue::print() {
+    std::cout << "Event Queue" << std::endl;
+    Event *e = root;
+    while(e) {
+        std::cout << "\t" << e->toString() << std::endl;
+        e = e->next;
+    }
+}

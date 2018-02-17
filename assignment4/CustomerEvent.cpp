@@ -17,6 +17,6 @@ void CustomerEvent::retask(double startTime, double duration, CEventType eventTy
     this->eventType = eventType;
 }
 
-char *CustomerEvent::getType() {
-    return const_cast<char *>("Customer");
+std::string CustomerEvent::getType() {
+    return "Customer";
 }

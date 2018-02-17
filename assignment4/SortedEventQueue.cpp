@@ -10,10 +10,15 @@ void SortedEventQueue::add(Event *e) {
         // Set Event as root
         this->root = e;
         return;
+    } else if (e->startTime <= root->startTime) {
+        // If this should be first, put it there
+        e->next = root;
+        root = e;
+        return;
     }
     // else, insert in correct spot
     Event *n = root;
-    while(n->next != nullptr && n->next->startTime <= e->startTime) {
+    while(n->next != nullptr && e->startTime >= n->next->startTime) {
         n = n->next;
     }
     e->next = n->next;

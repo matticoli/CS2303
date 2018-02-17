@@ -12,12 +12,11 @@ class EventQueue {
 protected:
     Event *root = nullptr;
 public:
-        virtual void add(Event *e);
-        Event *peek();
-        Event *pop();
-
-//        std::string toString();
-
+    virtual void add(Event *e);
+    virtual Event *peek();
+    virtual Event *pop();
+    int length();
+    void print();
 };
 
 

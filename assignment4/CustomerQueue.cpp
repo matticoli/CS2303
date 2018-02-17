@@ -3,13 +3,22 @@
 //
 
 #include "CustomerQueue.h"
-#include "EventQueue.h"
-#include "Event.h"
+
+
+CustomerQueue* CustomerQueue::shortestCustomerQueue;
+
+CustomerQueue::CustomerQueue() {
+    shortestCustomerQueue = this;
+}
 
 void CustomerQueue::add(Event *e) {
     if(e->getType() == "Customer") {
         EventQueue::add(e);
     }
+
+//    if(shortestCustomerQueue == nullptr || length() <  shortestCustomerQueue->length()) {
+//        shortestCustomerQueue = this;
+//    }
 }
 
 CustomerEvent *CustomerQueue::peek() {

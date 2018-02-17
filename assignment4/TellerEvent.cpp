@@ -4,8 +4,9 @@
 
 #include "TellerEvent.h"
 
-TellerEvent::TellerEvent(double startTime, double duration, TEventType eventType) : Event(startTime, duration) {
+TellerEvent::TellerEvent(double startTime, double duration, TEventType eventType, CustomerQueue *queue) : Event(startTime, duration) {
     this->eventType = eventType;
+    this->queue = queue;
 }
 
 void TellerEvent::retask(double startTime, double duration, TEventType eventType) {
@@ -14,6 +15,6 @@ void TellerEvent::retask(double startTime, double duration, TEventType eventType
     this->eventType = eventType;
 }
 
-char *TellerEvent::getType() {
-    return const_cast<char *>("Teller");
+std::string TellerEvent::getType() {
+    return "Teller";
 }

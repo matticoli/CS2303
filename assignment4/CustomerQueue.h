@@ -10,9 +10,12 @@
 #include "CustomerEvent.h"
 
 class CustomerQueue : public EventQueue {
-    void add(Event *e) override;
-    CustomerEvent *peek();
-    CustomerEvent *pop();
+    public:
+        CustomerQueue();
+        static CustomerQueue *shortestCustomerQueue;
+        void add(Event *e) override;
+        CustomerEvent *peek() override;
+        CustomerEvent *pop() override;
 };
 
 

@@ -14,7 +14,7 @@ class Event {
         double startTime, duration;
 
         Event(double startTime, double duration);
-        virtual char *getType();
+        virtual std::string getType();
         std::string toString();
 };
 

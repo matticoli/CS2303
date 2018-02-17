@@ -24,11 +24,15 @@ CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o
  /home/student/CS2303/assignment4/SortedEventQueue.cpp
  /home/student/CS2303/assignment4/SortedEventQueue.h
 CMakeFiles/assignment4.dir/TellerEvent.cpp.o
+ /home/student/CS2303/assignment4/CustomerEvent.h
+ /home/student/CS2303/assignment4/CustomerQueue.h
  /home/student/CS2303/assignment4/Event.h
+ /home/student/CS2303/assignment4/EventQueue.h
  /home/student/CS2303/assignment4/TellerEvent.cpp
  /home/student/CS2303/assignment4/TellerEvent.h
 CMakeFiles/assignment4.dir/main.cpp.o
  /home/student/CS2303/assignment4/CustomerEvent.h
+ /home/student/CS2303/assignment4/CustomerQueue.h
  /home/student/CS2303/assignment4/Event.h
  /home/student/CS2303/assignment4/EventQueue.h
  /home/student/CS2303/assignment4/SortedEventQueue.h

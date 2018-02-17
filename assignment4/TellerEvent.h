@@ -7,16 +7,18 @@
 
 
 #include "Event.h"
+#include "CustomerQueue.h"
 
 enum TEventType { SERVE, IDLE };
 
 class TellerEvent : public Event {
     public:
         TEventType eventType;
+        CustomerQueue *queue;
 
-        TellerEvent(double startTime, double duration, TEventType eventType);
+        TellerEvent(double startTime, double duration, TEventType eventType, CustomerQueue *queue);
         void retask(double startTime, double duration, TEventType eventType);
-        char *getType() override;
+        std::string getType() override;
 };
 
 
