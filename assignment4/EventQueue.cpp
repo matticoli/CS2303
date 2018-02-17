@@ -1,9 +1,13 @@
 //
-// Created by student on 2/14/18.
+// Created by Mikel Matticoli on 2/14/18.
 //
 
 #include "EventQueue.h"
 
+/**
+ * Adds event to queue
+ * @param e Pointer to event to add to queue
+ */
 void EventQueue::add(Event *e) {
     // If no root
     if(!this->root) {
@@ -21,10 +25,18 @@ void EventQueue::add(Event *e) {
     tail->next = e;
 }
 
+/**
+ * Returns head node of queue without removing it
+ * @return first event in queue
+ */
 Event * EventQueue::peek() {
     return root;
 }
 
+/**
+ * Removes head node from queue and returns it
+ * @return fist event in queue
+ */
 Event * EventQueue::pop() {
     Event *n = root;
     root = root->next;
@@ -32,13 +44,19 @@ Event * EventQueue::pop() {
     return n;
 }
 
+/**
+ * Calculates length of queue
+ * @return number of events in queue
+ */
 int EventQueue::length() {
     int count = 0;
     for(Event *n = root; n->next != nullptr; n++) count++;
     return count;
 }
 
-
+/**
+ * Prints string representation of queue to std::cout
+ */
 void EventQueue::print() {
     std::cout << "Event Queue" << std::endl;
     Event *e = root;

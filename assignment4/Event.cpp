@@ -1,19 +1,30 @@
 //
-// Created by student on 2/14/18.
+// Created by Mikel Matticoli on 2/14/18.
 //
 #include <iostream>
 
 #include "Event.h"
 
-Event::Event(double startTime, double duration) {
+/**
+ * Default constructor for event
+ * @param startTime Event timestamp (minutes)
+ */
+Event::Event(double startTime) {
     this->startTime = startTime;
-    this->duration = duration;
 }
 
+/**
+ * Returns a string corresponding to the event type
+ * @return string corresponding to the event type
+ */
 std::string Event::getType() {
     return "Event";
 }
 
+/**
+ * Returns a string representation of the event
+ * @return string representation of the event
+ */
 std::string Event::toString() {
-    return getType() + "{" + std::to_string(startTime) + ", " + std::to_string(duration) + "}";
+    return getType() + "{" + std::to_string(startTime) + "}";
 }

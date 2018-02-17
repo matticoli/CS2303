@@ -150,33 +150,6 @@ CustomerEvent.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerEvent.cpp.s
 .PHONY : CustomerEvent.cpp.s
 
-CustomerQueue.o: CustomerQueue.cpp.o
-
-.PHONY : CustomerQueue.o
-
-# target to build an object file
-CustomerQueue.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.o
-.PHONY : CustomerQueue.cpp.o
-
-CustomerQueue.i: CustomerQueue.cpp.i
-
-.PHONY : CustomerQueue.i
-
-# target to preprocess a source file
-CustomerQueue.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.i
-.PHONY : CustomerQueue.cpp.i
-
-CustomerQueue.s: CustomerQueue.cpp.s
-
-.PHONY : CustomerQueue.s
-
-# target to generate assembly for a file
-CustomerQueue.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.s
-.PHONY : CustomerQueue.cpp.s
-
 Event.o: Event.cpp.o
 
 .PHONY : Event.o
@@ -285,6 +258,33 @@ TellerEvent.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerEvent.cpp.s
 .PHONY : TellerEvent.cpp.s
 
+TellerQueue.o: TellerQueue.cpp.o
+
+.PHONY : TellerQueue.o
+
+# target to build an object file
+TellerQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerQueue.cpp.o
+.PHONY : TellerQueue.cpp.o
+
+TellerQueue.i: TellerQueue.cpp.i
+
+.PHONY : TellerQueue.i
+
+# target to preprocess a source file
+TellerQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerQueue.cpp.i
+.PHONY : TellerQueue.cpp.i
+
+TellerQueue.s: TellerQueue.cpp.s
+
+.PHONY : TellerQueue.s
+
+# target to generate assembly for a file
+TellerQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerQueue.cpp.s
+.PHONY : TellerQueue.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -324,9 +324,6 @@ help:
 	@echo "... CustomerEvent.o"
 	@echo "... CustomerEvent.i"
 	@echo "... CustomerEvent.s"
-	@echo "... CustomerQueue.o"
-	@echo "... CustomerQueue.i"
-	@echo "... CustomerQueue.s"
 	@echo "... Event.o"
 	@echo "... Event.i"
 	@echo "... Event.s"
@@ -339,6 +336,9 @@ help:
 	@echo "... TellerEvent.o"
 	@echo "... TellerEvent.i"
 	@echo "... TellerEvent.s"
+	@echo "... TellerQueue.o"
+	@echo "... TellerQueue.i"
+	@echo "... TellerQueue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

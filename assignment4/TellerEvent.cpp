@@ -1,20 +1,30 @@
 //
-// Created by student on 2/15/18.
+// Created by Mikel Matticoli on 2/15/18.
 //
 
 #include "TellerEvent.h"
 
-TellerEvent::TellerEvent(double startTime, double duration, TEventType eventType, CustomerQueue *queue) : Event(startTime, duration) {
-    this->eventType = eventType;
+/**
+ * Creates new TellerEvent
+ * @param startTime start time for new event
+ * @param queue TellerQueue to pull from
+ */
+TellerEvent::TellerEvent(double startTime, TellerQueue *queue) : Event(startTime) {
     this->queue = queue;
 }
 
-void TellerEvent::retask(double startTime, double duration, TEventType eventType) {
+/**
+ * Changes the start time and event type for teller event
+ * @param startTime start time for new event
+ */
+void TellerEvent::retask(double startTime) {
     this->startTime = startTime;
-    this->duration = duration;
-    this->eventType = eventType;
 }
 
+/**
+ * Returns a string corresponding to the event type
+ * @return string corresponding to the event type
+ */
 std::string TellerEvent::getType() {
     return "Teller";
 }

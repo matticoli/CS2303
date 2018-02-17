@@ -10,10 +10,16 @@
 class Event {
 
     public:
+        /**
+         * Pointer to next event in EventQueue
+         */
         Event *next = nullptr;
-        double startTime, duration;
+        /**
+         * Start time of event in minutes
+         */
+        double startTime;
 
-        Event(double startTime, double duration);
+        Event(double startTime);
         virtual std::string getType();
         std::string toString();
 };

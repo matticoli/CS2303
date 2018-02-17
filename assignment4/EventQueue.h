@@ -1,5 +1,5 @@
 //
-// Created by student on 2/14/18.
+// Created by Mikel Matticoli on 2/14/18.
 //
 
 #ifndef ASSIGNMENT4_LINKEDLIST_H

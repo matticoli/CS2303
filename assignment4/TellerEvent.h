@@ -1,5 +1,5 @@
 //
-// Created by student on 2/15/18.
+// Created by Mikel Matticoli on 2/15/18.
 //
 
 #ifndef ASSIGNMENT4_TELLEREVENT_H
@@ -7,17 +7,17 @@
 
 
 #include "Event.h"
-#include "CustomerQueue.h"
-
-enum TEventType { SERVE, IDLE };
+#include "TellerQueue.h"
 
 class TellerEvent : public Event {
     public:
-        TEventType eventType;
-        CustomerQueue *queue;
+        /**
+         * TellerQueue to serve customers from
+         */
+        TellerQueue *queue;
 
-        TellerEvent(double startTime, double duration, TEventType eventType, CustomerQueue *queue);
-        void retask(double startTime, double duration, TEventType eventType);
+        TellerEvent(double startTime, TellerQueue *queue);
+        void retask(double startTime);
         std::string getType() override;
 };
 

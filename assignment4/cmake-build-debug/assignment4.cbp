@@ -90,12 +90,6 @@
 		<Unit filename="/home/student/CS2303/assignment4/CustomerEvent.h">
 			<Option target="assignment4"/>
 		</Unit>
-		<Unit filename="/home/student/CS2303/assignment4/CustomerQueue.cpp">
-			<Option target="assignment4"/>
-		</Unit>
-		<Unit filename="/home/student/CS2303/assignment4/CustomerQueue.h">
-			<Option target="assignment4"/>
-		</Unit>
 		<Unit filename="/home/student/CS2303/assignment4/Event.cpp">
 			<Option target="assignment4"/>
 		</Unit>
@@ -118,6 +112,12 @@
 			<Option target="assignment4"/>
 		</Unit>
 		<Unit filename="/home/student/CS2303/assignment4/TellerEvent.h">
+			<Option target="assignment4"/>
+		</Unit>
+		<Unit filename="/home/student/CS2303/assignment4/TellerQueue.cpp">
+			<Option target="assignment4"/>
+		</Unit>
+		<Unit filename="/home/student/CS2303/assignment4/TellerQueue.h">
 			<Option target="assignment4"/>
 		</Unit>
 		<Unit filename="/home/student/CS2303/assignment4/main.cpp">

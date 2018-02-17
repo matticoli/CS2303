@@ -1,22 +1,35 @@
 //
-// Created by student on 2/15/18.
+// Created by Mikel Matticoli on 2/15/18.
 //
 
 #include "CustomerEvent.h"
 
-CustomerEvent::CustomerEvent(double startTime, double duration, CEventType eventType) : Event(startTime, duration) {
+/**
+ * Creates new CustomerEvent
+ * @param startTime start time for new event
+ * @param eventType type of event (enum)
+ */
+CustomerEvent::CustomerEvent(double startTime, CEventType eventType) : Event(startTime) {
     this->eventType = eventType;
     if(eventType == ARRIVE) {
         this->arrivalTime = startTime;
     }
 }
 
-void CustomerEvent::retask(double startTime, double duration, CEventType eventType) {
+/**
+ * Changes the start time and event type for customer event
+ * @param startTime start time for new event
+ * @param eventType type for new event (enum)
+ */
+void CustomerEvent::retask(double startTime, CEventType eventType) {
     this->startTime = startTime;
-    this->duration = duration;
     this->eventType = eventType;
 }
 
+/**
+ * Returns a string corresponding to the event type
+ * @return string corresponding to the event type
+ */
 std::string CustomerEvent::getType() {
     return "Customer";
 }

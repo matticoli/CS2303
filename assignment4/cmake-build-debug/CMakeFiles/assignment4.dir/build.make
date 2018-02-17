@@ -177,28 +177,28 @@ CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.provides: CMakeFiles/assignment4.
 CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.provides.build: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o
 
 
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.o: CMakeFiles/assignment4.dir/flags.make
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.o: ../CustomerQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assignment4.dir/CustomerQueue.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/CustomerQueue.cpp.o -c /home/student/CS2303/assignment4/CustomerQueue.cpp
+CMakeFiles/assignment4.dir/TellerQueue.cpp.o: CMakeFiles/assignment4.dir/flags.make
+CMakeFiles/assignment4.dir/TellerQueue.cpp.o: ../TellerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CS2303/assignment4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assignment4.dir/TellerQueue.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment4.dir/TellerQueue.cpp.o -c /home/student/CS2303/assignment4/TellerQueue.cpp
 
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/CustomerQueue.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/CustomerQueue.cpp > CMakeFiles/assignment4.dir/CustomerQueue.cpp.i
+CMakeFiles/assignment4.dir/TellerQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment4.dir/TellerQueue.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CS2303/assignment4/TellerQueue.cpp > CMakeFiles/assignment4.dir/TellerQueue.cpp.i
 
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/CustomerQueue.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/CustomerQueue.cpp -o CMakeFiles/assignment4.dir/CustomerQueue.cpp.s
+CMakeFiles/assignment4.dir/TellerQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment4.dir/TellerQueue.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CS2303/assignment4/TellerQueue.cpp -o CMakeFiles/assignment4.dir/TellerQueue.cpp.s
 
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires:
+CMakeFiles/assignment4.dir/TellerQueue.cpp.o.requires:
 
-.PHONY : CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires
+.PHONY : CMakeFiles/assignment4.dir/TellerQueue.cpp.o.requires
 
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires
-	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides.build
-.PHONY : CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides
+CMakeFiles/assignment4.dir/TellerQueue.cpp.o.provides: CMakeFiles/assignment4.dir/TellerQueue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment4.dir/build.make CMakeFiles/assignment4.dir/TellerQueue.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment4.dir/TellerQueue.cpp.o.provides
 
-CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.provides.build: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o
+CMakeFiles/assignment4.dir/TellerQueue.cpp.o.provides.build: CMakeFiles/assignment4.dir/TellerQueue.cpp.o
 
 
 CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o: CMakeFiles/assignment4.dir/flags.make
@@ -232,7 +232,7 @@ assignment4_OBJECTS = \
 "CMakeFiles/assignment4.dir/EventQueue.cpp.o" \
 "CMakeFiles/assignment4.dir/TellerEvent.cpp.o" \
 "CMakeFiles/assignment4.dir/CustomerEvent.cpp.o" \
-"CMakeFiles/assignment4.dir/CustomerQueue.cpp.o" \
+"CMakeFiles/assignment4.dir/TellerQueue.cpp.o" \
 "CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o"
 
 # External object files for target assignment4
@@ -243,7 +243,7 @@ assignment4: CMakeFiles/assignment4.dir/Event.cpp.o
 assignment4: CMakeFiles/assignment4.dir/EventQueue.cpp.o
 assignment4: CMakeFiles/assignment4.dir/TellerEvent.cpp.o
 assignment4: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o
-assignment4: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o
+assignment4: CMakeFiles/assignment4.dir/TellerQueue.cpp.o
 assignment4: CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o
 assignment4: CMakeFiles/assignment4.dir/build.make
 assignment4: CMakeFiles/assignment4.dir/link.txt
@@ -260,7 +260,7 @@ CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/Event.cpp.o.requ
 CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/EventQueue.cpp.o.requires
 CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/TellerEvent.cpp.o.requires
 CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/CustomerEvent.cpp.o.requires
-CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/CustomerQueue.cpp.o.requires
+CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/TellerQueue.cpp.o.requires
 CMakeFiles/assignment4.dir/requires: CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o.requires
 
 .PHONY : CMakeFiles/assignment4.dir/requires

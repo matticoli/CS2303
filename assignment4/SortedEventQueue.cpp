@@ -1,9 +1,13 @@
 //
-// Created by student on 2/16/18.
+// Created by Mikel Matticoli on 2/16/18.
 //
 
 #include "SortedEventQueue.h"
 
+/**
+ * Adds event to queue sorted by start time
+ * @param e Pointer to event to add to queue
+ */
 void SortedEventQueue::add(Event *e) {
     // If no root
     if(this->root == nullptr) {

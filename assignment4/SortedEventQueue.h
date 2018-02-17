@@ -1,5 +1,5 @@
 //
-// Created by student on 2/16/18.
+// Created by Mikel Matticoli on 2/16/18.
 //
 
 #ifndef ASSIGNMENT4_SORTEDEVENTQUEUE_H

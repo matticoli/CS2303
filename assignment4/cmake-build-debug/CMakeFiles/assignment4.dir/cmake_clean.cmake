@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment4.dir/EventQueue.cpp.o"
   "CMakeFiles/assignment4.dir/TellerEvent.cpp.o"
   "CMakeFiles/assignment4.dir/CustomerEvent.cpp.o"
-  "CMakeFiles/assignment4.dir/CustomerQueue.cpp.o"
+  "CMakeFiles/assignment4.dir/TellerQueue.cpp.o"
   "CMakeFiles/assignment4.dir/SortedEventQueue.cpp.o"
   "assignment4.pdb"
   "assignment4"
