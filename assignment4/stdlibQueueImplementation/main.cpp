@@ -38,6 +38,8 @@ int main(int argc, char *argv[]) {
     } else {
         srand(time(NULL));
     }
+
+
     // If any args are invalid, print usage and >0 warning
     if(!customerCount || !tellerCount || !simDuration || !avgSvcTime) {
         std::cout << "Usage:" << std::endl

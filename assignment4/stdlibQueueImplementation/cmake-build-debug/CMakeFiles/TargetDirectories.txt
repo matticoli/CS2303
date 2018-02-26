@@ -1,0 +1,3 @@
+/home/student/CS2303/assignment4/stdlibQueueImplementation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/student/CS2303/assignment4/stdlibQueueImplementation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/student/CS2303/assignment4/stdlibQueueImplementation/cmake-build-debug/CMakeFiles/assignment4.dir

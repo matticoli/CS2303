@@ -20,6 +20,7 @@ int runSim(int customerCount, int tellerCount, double simDuration, double avgSvc
  * @return program exit code (==0 for success, !=0 for error)
  */
 int main(int argc, char *argv[]) {
+    srand(time(NULL));
     // If missing args, print usage
     if(argc < 5) {
         std::cout << "Usage:" << std::endl
@@ -32,12 +33,8 @@ int main(int argc, char *argv[]) {
     int tellerCount = atoi(argv[2]);
     double simDuration = atof(argv[3]);
     double avgSvcTime = atof(argv[4]);
-    if(argc == 6) {
-        int seed = atoi(argv[5]);
-        srand(seed);
-    } else {
-        srand(time(NULL));
-    }
+    
+
     // If any args are invalid, print usage and >0 warning
     if(!customerCount || !tellerCount || !simDuration || !avgSvcTime) {
         std::cout << "Usage:" << std::endl
