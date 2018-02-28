@@ -52,8 +52,8 @@
           <file leaf-file-name="Organism.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Organism.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="15" column="7" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="15" selection-end-column="7" />
+                <state relative-caret-position="342">
+                  <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
                   <folding>
                     <element signature="e#112#131#0" expanded="true" />
                   </folding>
@@ -321,16 +321,15 @@
       <workItem from="1518818389118" duration="18740000" />
       <workItem from="1519672468128" duration="40971000" />
       <workItem from="1519769569260" duration="6703000" />
-      <workItem from="1519781364418" duration="120000" />
+      <workItem from="1519781364418" duration="558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87778000" />
+    <option name="totallyTimeSpent" value="88216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -657,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Organism.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="e#112#131#0" expanded="true" />
           </folding>
